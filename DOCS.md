@@ -198,6 +198,18 @@ Example configuration with a custom socks5 URL:
 +     socks5: socks5://67.204.21.1:64312
 ```
 
+Example configuration with a custom APIEndpoint URL:
+
+```diff
+  - name: send telegram notification
+    image: appleboy/drone-telegram
+    settings:
+      token: xxxxxxxxxx
+      to: telegram_user_id
+      message: send message using custom APIEndpoint URL
++     apiendpoint: "https://api.telegram.org/bot%s/%s"
+```
+
 ## Parameter Reference
 
 token

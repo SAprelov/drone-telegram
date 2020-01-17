@@ -108,6 +108,12 @@ func main() {
 			EnvVar: "PLUGIN_FORMAT,FORMAT,INPUT_FORMAT",
 		},
 		cli.StringFlag{
+			Name:   "apiEndpoint",
+			Value:  "https://api.telegram.org/bot%s/%s",
+			Usage:  "telegram api endpoint",
+			EnvVar: "PLUGIN_APIENDPOINT,APIENDPOINT,INPUT_APIENDPOINT",
+		},
+		cli.StringFlag{
 			Name:   "repo",
 			Usage:  "repository owner and repository name",
 			EnvVar: "DRONE_REPO,GITHUB_REPOSITORY",
@@ -316,6 +322,7 @@ func run(c *cli.Context) error {
 			Format:       c.String("format"),
 			GitHub:       c.Bool("github"),
 			Socks5:       c.String("socks5"),
+			APIEndpoint:  c.String("apiEndpoint"),
 		},
 	}
 

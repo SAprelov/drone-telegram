@@ -14,6 +14,8 @@ github.com/drone/drone-template-lib v1.0.0 h1:PNBBfUhifRnrPCoWBlTitk3jipXdv8u8WL
 github.com/drone/drone-template-lib v1.0.0/go.mod h1:Hqy1tgqPH5mtbFOZmow19l4jOkZvp+WZ00cB4W3MJhg=
 github.com/go-telegram-bot-api/telegram-bot-api v4.6.4+incompatible h1:2cauKuaELYAEARXRkq2LrJ0yDDv1rW7+wrTEdVL3uaU=
 github.com/go-telegram-bot-api/telegram-bot-api v4.6.4+incompatible/go.mod h1:qf9acutJ8cwBUhm1bqgz6Bei9/C/c93FPDljKWwsOgM=
+github.com/go-telegram-bot-api/telegram-bot-api v4.6.5-0.20200113063019-aa124ef1e84e+incompatible h1:sRXybi+q/RGwg3dvAfxmrwWr6jS7CD0syjDv5yLg550=
+github.com/go-telegram-bot-api/telegram-bot-api v4.6.5-0.20200113063019-aa124ef1e84e+incompatible/go.mod h1:qf9acutJ8cwBUhm1bqgz6Bei9/C/c93FPDljKWwsOgM=
 github.com/google/uuid v1.1.0 h1:Jf4mxPC/ziBnoPIdpQdPJ9OeiomAUHLvxmPRSPH9m4s=
 github.com/google/uuid v1.1.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/huandu/xstrings v1.2.0 h1:yPeWdRnmynF7p+lLYz0H2tthW9lqhMJrQV/U7yy4wX0=
